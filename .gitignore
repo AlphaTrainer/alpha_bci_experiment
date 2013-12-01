@@ -1,0 +1,39 @@
+#based on http://blog.mfabrik.com/2010/07/23/gitignore-for-python-developers/
+*.mo
+*.egg-info
+*.egg
+*.EGG
+*.EGG-INFO
+bin
+gen
+build
+local.properties
+develop-eggs
+downloads
+eggs
+fake-eggs
+parts
+dist
+.installed.cfg
+.mr.developer.cfg
+.hg
+.bzr
+.svn
+*.javac
+*.elc
+*.pyc
+*.pyo
+*.tmp*
+.DS_Store
+octave-core
+
+# in the recordings we don some analyse and these we dont like to have in the repos...
+# no lets take all mat files to be ignored
+# - don't do that we need some of the mat file
+#*.mat
+#*.png
+/epoc/*.mat
+/opi/*.mat
+/opi_vs_mindwave/opi/*.mat
+/results/*.mat
+/mindwave/matlab/*.mat
